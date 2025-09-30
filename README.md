@@ -1,4 +1,4 @@
-# SpeakPicAi-Privacy
+# Sora 2 by AI Video Editor
 
 ## Privacy Policy
 
