@@ -1,4 +1,4 @@
-# Dorasor 2 by AI Video Editor
+# Doraso by AI Video Editor
 
 ## Privacy Policy
 
