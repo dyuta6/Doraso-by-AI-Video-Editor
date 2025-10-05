@@ -1,4 +1,4 @@
-# Sora 2 by AI Video Editor
+# Dorasor 2 by AI Video Editor
 
 ## Privacy Policy
 
