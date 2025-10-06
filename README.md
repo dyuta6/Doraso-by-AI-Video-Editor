@@ -30,8 +30,19 @@ We do not sell, trade, or rent your personal information to third parties. We ma
 - To protect our rights and safety
 - With service providers who assist in our operations
 
-### Data Security
-We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure.
+### Face Data and Photos
+What we collect: When you upload a photo that may contain a face, we process that image to generate a talking‑head video. We do not collect or create biometric identifiers, faceprints, face geometry, or facial recognition templates.
+Purpose of use: The photo is used only to render a lip‑synced video at your request. We do not perform identification, verification, or matching of the person in the image.
+Third parties and storage:
+Image hosting: We temporarily host the uploaded photo on ImgBB to obtain a URL for rendering.
+Rendering provider: We send the image URL and your script to D‑ID solely to generate the video.
+App infrastructure: We store minimal job metadata (e.g., talk ID, image URL, selected voice, and text) in Firebase/Firestore to track processing and delivery. We do not store the raw image on our own servers.
+Retention:
+Photo: We do not keep a local copy. The hosted image reference (URL) is retained only as long as needed to complete the rendering and support your video history. You can request deletion at any time; when you delete your content or account, we remove our references and request/enable deletion of the hosted image.
+Metadata: Job metadata is retained only as needed for service provision, billing/compliance, and troubleshooting, then deleted per our retention schedule or upon your request/account deletion.
+Sharing: Face photos are not sold or shared for marketing. They are shared only with the above service providers to fulfill your request, under contractual and security safeguards.
+Security: Data is transmitted over HTTPS; access is restricted; we review third‑party security practices.
+Your controls: You can delete uploaded content and request deletion of hosted images and associated metadata at any time by contacting us at [your email].
 
 ### Data Retention
 We retain your personal information for as long as necessary to provide our services and comply with legal obligations. You may request deletion of your account and associated data at any time.
@@ -44,8 +55,15 @@ You have the right to:
 - Opt-out of certain communications
 - Withdraw consent where applicable
 
-### Third-Party Services
-Our app may integrate with third-party services (such as cloud storage and payment processors). These services have their own privacy policies, and we are not responsible for their practices.
+### Third-Party Services (clarification)
+We use the following providers to deliver the service:
+Firebase (authentication, database, analytics)
+ImgBB (image hosting for user‑uploaded photos)
+D‑ID (video rendering)
+Each provider processes data solely to provide the requested service and under its own privacy policy.
+Data Retention (clarification)
+Content (photos/videos): Until you delete it or close your account, or as required to provide the service; hosted images are removed upon your deletion request.
+Job metadata (IDs, URLs, text, voice selection): Retained only as necessary for operations and then deleted per policy or on request.
 
 ### Children's Privacy
 Our services are not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us.
