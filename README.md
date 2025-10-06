@@ -1,4 +1,4 @@
-# Doraso by AI Video Editor
+# Doraso-iD by AI Video Editor
 
 ## Privacy Policy
 
