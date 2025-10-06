@@ -2,7 +2,7 @@
 
 ## Privacy Policy
 
-**Last Updated:** December 2024
+**Last Updated:** 6/10/2025
 
 ### Introduction
 This Privacy Policy describes how SpeakPic AI ("we," "our," or "us") collects, uses, and shares your personal information when you use our mobile application and related services.
