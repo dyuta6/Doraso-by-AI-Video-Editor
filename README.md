@@ -1,4 +1,4 @@
-# Doraso by AI Video Editor
+# Doraso-İD UGC
 
 ## Privacy Policy
 
